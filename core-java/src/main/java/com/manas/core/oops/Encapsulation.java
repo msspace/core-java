@@ -26,7 +26,7 @@ public class Encapsulation {
 		CricketScorer scorer = new CricketScorer();
 		System.out.println("The score is :"+scorer.getScore());
 		scorer.four();
-		System.out.println("The new score is :"+scorer.getScore());
+		System.out.println("The changed score is :"+scorer.getScore());
 	}
 	
 	public static void main(String args[]){
